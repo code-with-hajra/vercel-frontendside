@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import Login from './Login'
-import { useAuth } from '../context/authprovider.jsx'
+import { useAuth } from '../context/AuthProvider.jsx'
 import Logout from './logout.jsx'
 
 function Navbar() {
-    const [authUser, setAuthUser]=useAuth();
+    const [authUser]=useAuth();
 
     // const [sticky, setSticky] = useState(false)
     // useEffect(()=>
