@@ -12,7 +12,7 @@ function FreeBooks() {
   useEffect(() => {
     const getBook = async () => {
       try {
-        const res = await axios.get("http://localhost:4001/book");
+        const res = await axios.get("https://vercel-backend-mu-flax.vercel.app/book");
         console.log(res.data);
         setBook(res.data);
       } catch (error) {
