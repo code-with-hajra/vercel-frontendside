@@ -5,7 +5,7 @@ import { Navigate, Route, Routes } from "react-router-dom"
 import Courses from './courses/Courses.jsx'
 import { Toaster } from 'react-hot-toast'
 import Signup from './components/Signup.jsx'
-import { useAuth } from './context/authprovider.jsx'
+import { useAuth } from './context/AuthProvider.jsx';
 
 function App() {
   const [authUser] = useAuth();
