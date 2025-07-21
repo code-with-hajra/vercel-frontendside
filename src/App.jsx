@@ -2,9 +2,9 @@
 import './App.css'
 import Home from './home/Home.jsx'
 import { Navigate, Route, Routes } from "react-router-dom"
-import Courses from './courses/courses'
+import Courses from './courses/Courses.jsx'
 import { Toaster } from 'react-hot-toast'
-import Signup from './components/Signup'
+import Signup from './components/Signup.jsx'
 import { useAuth } from './context/authprovider.jsx'
 import AuthProvider from './context/authprovider.jsx';
 
